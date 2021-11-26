@@ -96,7 +96,7 @@ U 1 1 61A3FFA5
 P 4850 4350
 F 0 "J1" H 4768 3925 50  0000 C CNN
 F 1 "Conn_01x04" H 4768 4016 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical" H 4850 4350 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 4850 4350 50  0001 C CNN
 F 3 "~" H 4850 4350 50  0001 C CNN
 	1    4850 4350
 	-1   0    0    1   
@@ -107,7 +107,7 @@ U 1 1 61A434E9
 P 1200 5350
 F 0 "J2" H 1118 6067 50  0000 C CNN
 F 1 "Conn_01x12" H 1118 5976 50  0000 C CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 1200 5350 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 1200 5350 50  0001 C CNN
 F 3 "~" H 1200 5350 50  0001 C CNN
 	1    1200 5350
 	-1   0    0    -1  
@@ -378,7 +378,7 @@ U 1 1 61A40F36
 P 6000 5350
 F 0 "J3" H 6080 5342 50  0000 L CNN
 F 1 "Conn_01x12" H 6080 5251 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 6000 5350 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical" H 6000 5350 50  0001 C CNN
 F 3 "~" H 6000 5350 50  0001 C CNN
 	1    6000 5350
 	1    0    0    -1  
@@ -421,8 +421,6 @@ Text GLabel 5050 4150 2    50   Input ~ 0
 D2-PD1-SDA
 Text GLabel 5050 4250 2    50   Input ~ 0
 D3-PD0-SCL
-Text GLabel 5050 4350 2    50   Input ~ 0
-VCC
 Text GLabel 5050 4450 2    50   Input ~ 0
 GND
 Text GLabel 2350 1800 0    50   Input ~ 0
@@ -560,4 +558,6 @@ F 3 "~" V 5400 1500 50  0001 C CNN
 	1    5400 1500
 	1    0    0    -1  
 $EndComp
+Text GLabel 5050 4350 2    50   Input ~ 0
+RAW
 $EndSCHEMATC
