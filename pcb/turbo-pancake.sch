@@ -423,42 +423,28 @@ Text GLabel 5050 4250 2    50   Input ~ 0
 D3-PD0-SCL
 Text GLabel 5050 4450 2    50   Input ~ 0
 GND
-Text GLabel 2350 1800 0    50   Input ~ 0
+Text GLabel 2650 1700 2    50   Input ~ 0
 ROW0
-Text GLabel 2350 1900 0    50   Input ~ 0
+Text GLabel 2650 1900 2    50   Input ~ 0
 ROW1
-Text GLabel 2350 2000 0    50   Input ~ 0
+Text GLabel 2650 2100 2    50   Input ~ 0
 ROW2
-Text GLabel 2350 2150 0    50   Input ~ 0
-COL0
-Text GLabel 2350 2250 0    50   Input ~ 0
+Text GLabel 2650 2550 2    50   Input ~ 0
 COL1
-Text GLabel 2350 2350 0    50   Input ~ 0
+Text GLabel 2650 2750 2    50   Input ~ 0
 COL2
-Text GLabel 2600 2150 2    50   Input ~ 0
+Text GLabel 2650 2450 2    50   Input ~ 0
 A6-D4-PD4
-Wire Wire Line
-	2350 2150 2600 2150
-Text GLabel 2600 2250 2    50   Input ~ 0
+Text GLabel 2650 2650 2    50   Input ~ 0
 D5-PC6
-Wire Wire Line
-	2350 2250 2600 2250
-Text GLabel 2600 2350 2    50   Input ~ 0
+Text GLabel 2650 2850 2    50   Input ~ 0
 A7-D6-PD7
-Wire Wire Line
-	2350 2350 2600 2350
 Text GLabel 2650 1800 2    50   Input ~ 0
 A0-PF7-D18
-Wire Wire Line
-	2350 1800 2650 1800
-Text GLabel 2650 1900 2    50   Input ~ 0
-D15-PB1-SCLK
-Wire Wire Line
-	2350 1900 2650 1900
 Text GLabel 2650 2000 2    50   Input ~ 0
+D15-PB1-SCLK
+Text GLabel 2650 2200 2    50   Input ~ 0
 D14-PB3-MISO
-Wire Wire Line
-	2350 2000 2650 2000
 $Comp
 L Device:D_Small D3
 U 1 1 61A1CF69
@@ -560,4 +546,90 @@ F 3 "~" V 5400 1500 50  0001 C CNN
 $EndComp
 Text GLabel 5050 4350 2    50   Input ~ 0
 RAW
+$Comp
+L Connector_Generic:Conn_01x03 J5-COL1
+U 1 1 61B445E2
+P 1800 2550
+F 0 "J5-COL1" H 1718 2867 50  0000 C CNN
+F 1 "Conn_01x03" H 1718 2776 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1800 2550 50  0001 C CNN
+F 3 "~" H 1800 2550 50  0001 C CNN
+	1    1800 2550
+	-1   0    0    -1  
+$EndComp
+Text GLabel 2650 2350 2    50   Input ~ 0
+COL0
+$Comp
+L Connector_Generic:Conn_01x03 J4-ROW1
+U 1 1 61B621DD
+P 1800 1900
+F 0 "J4-ROW1" H 1718 2217 50  0000 C CNN
+F 1 "Conn_01x03" H 1718 2126 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1800 1900 50  0001 C CNN
+F 3 "~" H 1800 1900 50  0001 C CNN
+	1    1800 1900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 1800 2550 1800
+Wire Wire Line
+	2550 1800 2550 1700
+Wire Wire Line
+	2550 1700 2650 1700
+Wire Wire Line
+	2000 1900 2550 1900
+Wire Wire Line
+	2650 2000 2550 2000
+Wire Wire Line
+	2550 2000 2550 1900
+Connection ~ 2550 1900
+Wire Wire Line
+	2550 1900 2650 1900
+Wire Wire Line
+	2000 2000 2400 2000
+Wire Wire Line
+	2400 2000 2400 2100
+Wire Wire Line
+	2400 2100 2550 2100
+Wire Wire Line
+	2650 2200 2550 2200
+Wire Wire Line
+	2550 2200 2550 2100
+Connection ~ 2550 2100
+Wire Wire Line
+	2550 2100 2650 2100
+Wire Wire Line
+	2000 1800 2550 1800
+Connection ~ 2550 1800
+Wire Wire Line
+	2000 2450 2550 2450
+Wire Wire Line
+	2650 2350 2550 2350
+Wire Wire Line
+	2550 2350 2550 2450
+Connection ~ 2550 2450
+Wire Wire Line
+	2550 2450 2650 2450
+Wire Wire Line
+	2000 2550 2550 2550
+Wire Wire Line
+	2650 2650 2550 2650
+Wire Wire Line
+	2550 2650 2550 2550
+Connection ~ 2550 2550
+Wire Wire Line
+	2550 2550 2650 2550
+Wire Wire Line
+	2000 2650 2400 2650
+Wire Wire Line
+	2400 2650 2400 2750
+Wire Wire Line
+	2400 2750 2550 2750
+Wire Wire Line
+	2650 2850 2550 2850
+Wire Wire Line
+	2550 2850 2550 2750
+Connection ~ 2550 2750
+Wire Wire Line
+	2550 2750 2650 2750
 $EndSCHEMATC
