@@ -163,7 +163,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A41D) (tstamp 61A06F6D)
-    (at 175.225 42.55)
+    (at 195.575 44.05)
     (descr "Through hole straight socket strip, 1x12, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x12 2.54mm single row")
     (path /61A40F36)
@@ -223,7 +223,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x12_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A41D) (tstamp 61A0AF53)
-    (at 152.4 42.565)
+    (at 172.75 44.065)
     (descr "Through hole straight socket strip, 1x12, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x12 2.54mm single row")
     (path /61A434E9)
@@ -283,7 +283,7 @@
   )
 
   (module Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 5A19A429) (tstamp 61A06F29)
-    (at 167.95 75.675 270)
+    (at 188.3 77.175 270)
     (descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x04 2.54mm single row")
     (path /61A3FFA5)
@@ -327,7 +327,7 @@
   )
 
   (module Keebio-Parts:ArduinoProMicro-ZigZag (layer F.Cu) (tedit 5BDF4FCE) (tstamp 61A070D3)
-    (at 163.8 56.525 270)
+    (at 184.15 58.025 270)
     (path /619F70B0)
     (fp_text reference U1 (at 0 1.625 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.2)))
